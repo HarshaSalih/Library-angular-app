@@ -21,11 +21,11 @@ const myRoute:Routes=[
     component:AdministratorLoginComponent
   },
   {
-    path:"user registration",
+    path:"user-registration",
     component:UserRegistrationComponent
   },
   {
-    path:"user login",
+    path:"user-login",
     component:UserLoginComponent
   },
   {
