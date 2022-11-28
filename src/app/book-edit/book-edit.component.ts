@@ -7,12 +7,12 @@ import { Component } from '@angular/core';
 })
 export class BookEditComponent {
 
-  edit=""
+  title=""
 
-  editValues=()=>
+  readValues=()=>
   {
-    let edit:any={"edit":this.edit}
-    console.log(edit)
+    let data:any={"title":this.title}
+    console.log(data)
 
   }
 

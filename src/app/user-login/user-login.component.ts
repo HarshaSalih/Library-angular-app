@@ -15,8 +15,8 @@ export class UserLoginComponent {
 
   readValues=()=>
   {
-    let user:any={"userName":this.userName,"password":this.password}
-    console.log(user)
+    let data:any={"userName":this.userName,"password":this.password}
+    console.log(data)
   }
 
 

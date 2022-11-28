@@ -22,20 +22,8 @@ export class BookEntryComponent {
 
   readvalues=()=>
   {
-    let entry:any= {
-      "Title":this.Title,
-      "Image":this.Image,
-      "Price":this.Price,
-      "Author":this.Author,
-      "Description":this.Description,
-      "Publisher":this.Publisher,
-      "Language":this.Language,
-      "Distributor":this.Distributor,
-      "ReleasedYear":this.ReleasedYear
-      
-    }
-
-    console.log(entry)
+    let data:any= {"Title":this.Title,"Image":this.Image,"Price":this.Price,"Author":this.Author,"Description":this.Description,"Publisher":this.Publisher,"Language":this.Language,"Distributor":this.Distributor,"ReleasedYear":this.ReleasedYear}
+    console.log(data)
   }
 
 }

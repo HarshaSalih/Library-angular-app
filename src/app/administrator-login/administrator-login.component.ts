@@ -10,12 +10,12 @@ export class AdministratorLoginComponent {
   userName=""
   password=""
 
-  adminLogin=()=>
+  readValues=()=>
   {
-    let admin:any={
+    let data:any={
       "userName":this.userName,"password":this.password
     }
-    console.log(admin)
+    console.log(data)
 
     if (this.userName=="admin" && this.password=="12345") {
       alert("valid login")
