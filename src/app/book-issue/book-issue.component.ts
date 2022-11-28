@@ -8,15 +8,15 @@ import { Component } from '@angular/core';
 export class BookIssueComponent {
 
   name=""
-  bookTitle=""
+  Title=""
   dateOfIssue=""
   membershipNo=""
 
 
-  issueValues=()=>
+  readValues=()=>
   {
-    let issue:any={"name":this.name,"bookTitle":this.bookTitle,"dateOfIssue":this.dateOfIssue,"membershipNo":this.membershipNo}
-    console.log(issue)
+    let data:any={"name":this.name,"Title":this.Title,"dateOfIssue":this.dateOfIssue,"membershipNo":this.membershipNo}
+    console.log(data)
     
   }
 
