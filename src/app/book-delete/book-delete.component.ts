@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class BookDeleteComponent {
 
+  delete=""
+
+  deleteValue=()=>
+  {
+    //let delete:any={"search":this.delete}
+    console.log(this.delete)
+  }
+
+
+
 }

@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class BookEditComponent {
 
+  edit=""
+
+  editValues=()=>
+  {
+    let edit:any={"edit":this.edit}
+    console.log(edit)
+
+  }
+
 }

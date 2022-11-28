@@ -6,30 +6,30 @@
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                     <label for="" class="form-label">Name</label>
-                    <input type="text" class="form-control">
+                    <input name="name" [(ngModel)]="name" type="text" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                     <label for="" class="form-label">Book title</label>
-                    <input type="text" class="form-control">
+                    <input name="bookTitle" [(ngModel)]="bookTitle" type="text" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                     <label for="" class="form-label">Date of issue</label>
-                    <input type="date" name="" id="" class="form-control">
+                    <input name="dateOfIssue" [(ngModel)]="dateOfIssue" type="date" name="" id="" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                     <label for="" class="form-label">Membership no.</label>
-                    <input type="text" class="form-control">
+                    <input name="membershipNo" [(ngModel)]="membershipNo" type="text" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
 
-                    <button class="btn btn-success">Submit</button>
+                    <button (click)="issueValues()" class="btn btn-success">Submit</button>
 
                     
 
