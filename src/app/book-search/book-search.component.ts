@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class BookSearchComponent {
 
+  search=""
+
+
+  searchValues=()=>
+  {
+    let search:any={"search":this.search}
+    console.log(search)
+  }
+
 }
